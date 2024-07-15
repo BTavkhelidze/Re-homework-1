@@ -1,0 +1,14 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  max-width: 144rem;
+  margin: 5rem auto;
+  .header {
+    max-width: 526px;
+  }
+  .tours {
+    max-width: 55rem;
+  }
+}

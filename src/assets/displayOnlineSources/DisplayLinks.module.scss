@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.displayLinksContainer {
+  color: white;
+
+  overflow: hidden;
+  .photosFrom {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.57px;
+    text-align: left;
+  }
+  span {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: left;
+  }
+  div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .location {
+      font-size: 24.98px;
+      font-weight: 700;
+      line-height: 30.24px;
+      text-align: left;
+    }
+    .imageUrl {
+      font-family: Inter;
+      font-size: 24.98px;
+      font-weight: 500;
+      line-height: 30.24px;
+      text-align: left;
+
+      cursor: pointer;
+
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
